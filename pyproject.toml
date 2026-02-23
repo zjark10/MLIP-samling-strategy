@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlip_sampling"
+version = "0.1.0"
+description = "MLIP sampling utilities"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+  "numpy==1.26.4",
+  "ase==3.27.0",
+  "matscipy==1.1.0",
+  "scipy==1.14.1",
+  "scikit-learn==1.5.2",
+  "pandas==2.2.3",
+  "tqdm==4.66.5",
+  "pyyaml==6.0.2",
+  "monty==2024.7.30",
+  "pymatgen==2024.9.17.1",
+  "e3nn==0.5.6",
+  "torch==2.4.1",
+  "torch-geometric==2.6.1",
+  "sevenn==0.11.2",
+  "fairchem-core==1.9.0",
+]
+
+[tool.setuptools]
+packages = ["mlip_sampling"]
