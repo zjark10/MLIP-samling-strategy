@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-02-18T18:45:02.718195",
+  "center_file": "initial_200fs_500_reduced.h5",
+  "n_center": 500,
+  "n_candidates": 10000,
+  "n_samples_target": 100,
+  "n_test_target": 100,
+  "n_train_union": 296,
+  "candidate_files": [
+    "augmented_10fs_10000_reduced.h5"
+  ],
+  "results": [
+    {
+      "method": "random",
+      "n_selected": 100
+    },
+    {
+      "method": "direct",
+      "n_selected": 99
+    },
+    {
+      "method": "lcmd",
+      "n_selected": 100
+    },
+    {
+      "method": "test",
+      "n_selected": 100
+    }
+  ]
+}
